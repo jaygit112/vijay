@@ -1,7 +1,8 @@
 class Main {
   public static void main(String[] args) {
 
-    int low = 999, high = 99999;
+    int low = 999; 
+    int high = 99999;
 
     for(int number = low + 1; number < high; ++number) {
       int digits = 0;
